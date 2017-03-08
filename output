@@ -1,0 +1,4 @@
+nohup: ignoring input
+[0mGET /? [36m304 [0m8.805 ms - -[0m
+[0mGET /word?w=hello [32m200 [0m286.477 ms - -[0m
+[0mGET / [32m200 [0m3.557 ms - 3633[0m
