@@ -4,14 +4,17 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <link rel="stylesheet" type="text/css" href="/weather.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<link href='//fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
 
 </head>
 <body>
 <div id='cont-all'>
 <h1>Number API</h1>
-<form class="center-text marg-top"> 
-  <input type="text" id="searchNumber" value=""> 
+<p class="marg-top instructions">Enter a number and a topic and a random fact<br>
+   will be generated about that number. If entering<br>
+   a date, enter in the format 3/21.</p>
+<form class="center-text marg-top">
+  <input type="text" class="marg-top" id="searchNumber" value=""> 
   <!--<input type="text" id="searchType" value="">-->
   <select id="searchType" class="btn btn-primary dropdown-toggle">
     <option value="trivia">Trivia</option>

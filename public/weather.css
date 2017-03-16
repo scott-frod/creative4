@@ -1,8 +1,11 @@
   h1{
     text-align: center;
     font-size: 60px !important;
+    font-family: 'Caesar Dressing' !important;
   }
-
+p {
+	text-align: center;
+}
 #cont-all {
 	width: 500px;
 	margin-left: auto;
@@ -13,7 +16,9 @@
 	margin-top: -10px;
 }
 .center-text {
-	margin-left: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 338px;
 }
 .marg-top {
 	margin-top: 25px;
@@ -25,6 +30,12 @@
     font-size: 24px;
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
-  #suggestions{
-    background-color: green;
-  }
+
+#searchResults {
+	font-family:"Courier New", Courier, monospace !important;
+	font-size: 20px !important;
+}
+.instructions {
+	font-family: "Comic Sans MS", cursive, sans-serif !important;
+	font-size: 17px;
+}
