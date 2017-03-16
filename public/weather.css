@@ -1,0 +1,30 @@
+  h1{
+    text-align: center;
+    font-size: 60px !important;
+  }
+
+#cont-all {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	background-color: #adb1ff;
+	padding-top: 50px;
+	margin-top: -10px;
+}
+.center-text {
+	margin-left: 70px;
+}
+.marg-top {
+	margin-top: 25px;
+}
+  body{
+    background-color: #6c96ff !important;
+  }
+  .headers{
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  #suggestions{
+    background-color: green;
+  }
